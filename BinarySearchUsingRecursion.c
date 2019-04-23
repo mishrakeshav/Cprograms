@@ -1,12 +1,12 @@
-// binary search...
+// binary search using recursion...
 #include<stdio.h>
-int b_search(int a[], int s, int start, int end);
+int b_search(int a[], int s, int start, int end); //function prototype
 int main()
 {
     int a[20], n, search, i;
-    printf("Enter number of elements of the array  order: \n");
+    printf("Enter number of elements of the array: \n");
     scanf("%d", &n);
-    printf("\nEnter Elements : \n");
+    printf("\nEnter Elements in ascending order : \n"); 
     for(i=0; i<n; i++)
         scanf("%d", &a[i]);
     printf("\nEnter number to be search : ");
