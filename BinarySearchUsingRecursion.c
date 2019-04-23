@@ -9,7 +9,7 @@ int main()
     printf("\nEnter Elements in ascending order : \n"); 
     for(i=0; i<n; i++)
         scanf("%d", &a[i]);
-    printf("\nEnter number to be search : ");
+    printf("\nEnter number to search : ");
     scanf("%d", &search);
     int k= b_search(a, search, 0, n-1);
     if(k==-1)
