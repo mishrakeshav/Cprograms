@@ -31,9 +31,9 @@ int main()
         }
     }
     printf("\nTranspose: \n");
-    for(i=0; i<m; i++)
+    for(i=0; i<n; i++)
     {
-        for(j=0; j<n; j++)
+        for(j=0; j<m; j++)
             printf("%d\t", a[i][j]);
         printf("\n");
     }
