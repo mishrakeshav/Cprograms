@@ -20,7 +20,7 @@ int main()
 }
 int b_search(int a[], int s, int start , int end)
 {
-   if(s>end)
+   if(s>a[end])
     return -1;
    int mid= (start+ end)/2;
 
